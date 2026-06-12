@@ -1,0 +1,14 @@
+{
+  "in_channels": 4,
+  "base_ch": 32,
+  "dropout": 0.3,
+  "epochs": 80,
+  "qat_epochs": 20,
+  "batch_size": 8,
+  "lr": 1e-3,
+  "wd": 1e-4,
+  "pos_weight": 3.0,
+  "num_workers": 4,
+  "n_snps": 5,
+  "snp_embed_dim": 32
+}
