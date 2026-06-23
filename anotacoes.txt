@@ -1,0 +1,21 @@
+PPMI_NEUROX_Nov11th2013\NEUROX.bed
+
+plink2 --bfile PPMI_NEUROX_Nov11th2013\NEUROX --export A --out PPMI_NEUROX_Nov11th2013\NEUROX
+
+# Comando para exportar apenas os SNPs de interesse:
+plink2 --bfile PPMI_NEUROX_Nov11th2013\NEUROX --extract PPMI_NEUROX_Nov11th2013\snps_of_interest.txt --export A --out PPMI_NEUROX_Nov11th2013\NEUROX_filtered
+
+
+Os SNPs (Single Nucleotide Polymorphisms) são variações em uma única base do DNA entre indivíduos. São o tipo mais comum de varição genética humana.
+
+Cada SNP recebe um identificador, exemplo: rs429358
+
+Uma SNP pode ter dois alelos possíveis:
+
+A/G
+C/T
+
+Como cada pessoa possui duas cópias de cada cromossomo, ela pode apresentar:
+
+
+
